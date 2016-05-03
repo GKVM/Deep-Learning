@@ -14,8 +14,11 @@ libraryDependencies ++= Seq(
   "org.deeplearning4j" % "deeplearning4j-nlp" % "0.4-rc3.8",
   "org.deeplearning4j" % "deeplearning4j-ui" % "0.4-rc3.8",
   "org.jblas" % "jblas" % "1.2.4",
+  "org.nd4j" % "canova-nd4j-image" % "0.0.0.14",
   "org.nd4j" % "canova-nd4j-codec" % "0.0.0.14",
-  "org.nd4j" % "nd4j-x86" % "0.4-rc3.8"
+  "org.nd4j" % "nd4j-x86" % "0.4-rc3.8",
+  "org.imgscalr" % "imgscalr-lib" % "4.2",
+  "com.twelvemonkeys.imageio" % "imageio-core" % "3.1.1"
 )
 
 
