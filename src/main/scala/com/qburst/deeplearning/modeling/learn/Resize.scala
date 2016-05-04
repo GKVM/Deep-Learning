@@ -1,8 +1,6 @@
-package com.qburst.deeplearning
+package com.qburst.deeplearning.modeling.learn
 
 import java.awt.image.BufferedImage
-import java.io.File
-import javax.imageio.ImageIO
 
 import org.imgscalr.Scalr
 

@@ -27,7 +27,7 @@ object LenetMnistExample {
         val nChannels = 1
         val outputNum = 10
         val batchSize = 1000
-        val nEpochs = 10
+        val nEpochs = 1
         val iterations = 1
         val seed = 123
 

@@ -1,8 +1,8 @@
-package com.qburst.deeplearning
+package com.qburst.deeplearning.modeling.learn
 
 import java.io.File
 import javax.imageio.ImageIO
-import Vectorize._
+
 
 /** Used to preprocess images by
   *   cropping
@@ -29,10 +29,5 @@ object Preprocess {
     val myGrayImage = Grayscaling.makeGray(myImage64)
     ImageIO.write(myGrayImage, imageFormat, new File(s"$imagePath$imageName-gray.$imageFormat"))
 
-    val image = myImg.makeSquare.resizeImage(64, 64)
-    ImageIO.write(image, imageFormat, new File(s"$imagePath$imageName-pre.$imageFormat"))
-
-    val imgVector = image.imageToGray
-    println(imgVector)
   }
 }

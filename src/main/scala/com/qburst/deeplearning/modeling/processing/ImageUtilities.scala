@@ -1,4 +1,4 @@
-package com.qburst.deeplearning
+package com.qburst.deeplearning.modeling.processing
 
 import java.awt.Color
 import java.awt.image.BufferedImage
@@ -9,7 +9,7 @@ import org.imgscalr.Scalr
   *
   * Created by gopikrishnan on 5/3/16.
   */
-object Vectorize {
+object ImageUtilities {
   implicit class extendingImageClass(img: BufferedImage) {
 
     private def pixelsToGray(red: Int, green: Int, blue: Int): Int = (red + green + blue) / 3

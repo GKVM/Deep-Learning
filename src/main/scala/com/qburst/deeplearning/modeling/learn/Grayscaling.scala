@@ -1,10 +1,7 @@
-package com.qburst.deeplearning
+package com.qburst.deeplearning.modeling.learn
 
 import java.awt.Color
 import java.awt.image.BufferedImage
-import java.io.File
-import java.util
-import javax.imageio.ImageIO
 
 /** Can be used to convert a grayscale image to
   * Created by gopikrishnan on 5/2/16.

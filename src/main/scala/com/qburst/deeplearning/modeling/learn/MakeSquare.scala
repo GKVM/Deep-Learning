@@ -1,9 +1,8 @@
-package com.qburst.deeplearning
+package com.qburst.deeplearning.modeling.learn
+
+import java.awt.image.BufferedImage
 
 import org.imgscalr._
-import java.awt.image.BufferedImage
-import java.io.File
-import javax.imageio.ImageIO
 
 /** This object is used to crop an image into square shape.
   *
